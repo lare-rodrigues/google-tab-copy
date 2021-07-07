@@ -3,15 +3,32 @@ html {
     background-color: rgb(116, 116, 116);
 }
 
+body {
+    overflow: hidden;
+}
+
 .itens {
     display: flex;
     justify-content: flex-end;
-    grid-area: itens;
 }
 
 .item {
     margin: 1rem;
     list-style-type: none;
+}
+
+.item button {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    background: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.item input {
+    opacity: 0;
 }
 
 a {
@@ -63,13 +80,7 @@ input {
 
 .favoritos {
     text-align: center;
-    display: table;
-    height: 350px;
-    width: 350px;
     font-family: Arial, Helvetica, sans-serif;
-    vertical-align: middle;
-    margin: auto;
-    padding: auto;
 }
 
 .circle-image1 {
@@ -101,4 +112,5 @@ input {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin-top: 80px;
 }

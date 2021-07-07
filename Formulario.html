@@ -10,9 +10,10 @@
     <title>Inicio Google</title>
 </head>
 
-<body class="areas">
+<body>
     <header>
         <div class="itens">
+
             <div class="item">
                 <a href="https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#" target="_blank">Gmail</a>
             </div>
@@ -20,47 +21,57 @@
             <div class="item">
                 <a href="https://www.google.com/imghp?hl=pt-br" target="_blank">Imagens</a>
             </div>
+
+            <div class="item">
+                <button>Select File</button>
+            </div>
+
         </div>
     </header>
-    <div class="logo">
-        <img src="Google-Logo.png" alt="Logo google">
-    </div>
+    <div class="principal">
+        <div class="logo">
+            <img src="Google-Logo.png" alt="Logo google" />
+        </div>
 
-    <main>
-        <form action="">
-            <div class="pesquisa">
-                <img src="loupe.png" alt="Lupa">
-                <input type="text" placeholder="Pesquise no Google ou digite um URL">
-                <img src="mic.png" alt="Microfone">
+        <main>
+            <form action="">
+                <div class="pesquisa">
+                    <img src="loupe.png" alt="Lupa">
+                    <input type="text" placeholder="Pesquise no Google ou digite um URL">
+                    <img src="mic.png" alt="Microfone">
+                </div>
+            </form>
+        </main>
+
+        <div class="favoritos">
+            <div class="circle-image1">
+                <a href="https://www.fecap.br/" target="_blank"><img src="logo-fecap.png" alt="logo fecap"></a>
+                <p>Fecap</p>
             </div>
-        </form>
-    </main>
-
-    <div class="favoritos">
-        <div class="circle-image1">
-            <a href="https://www.fecap.br/"><img src="logo-fecap.png" alt="logo fecap"></a>
-            <p>Fecap</p>
-        </div>
-        <div class="circle-image1">
-            <a href="http://gmail.com.br/"><img src="logo-gmail.jpg" alt="logo gmail"></a>
-            <p>Gmail</p>
-        </div>
-        <div class="circle-image1">
-            <a href="https://www.google.com/"><img src="Google-Chrome-Logo.png" alt="logo chrome"></a>
-            <p>Chrome</p>
-        </div>
-        <div class="circle-image1">
-            <a href="https://www.alura.com.br"><img src="logo-alura.png" alt="logo alura"></a>
-            <p>Alura</p>
-        </div>
-        <div class="circle-image1">
-            <a href="https://www.youtube.com"><img src="Youtube-Logo.png" alt="logo youtube"></a>
-            <p>Youtube</p>
+            <div class="circle-image1">
+                <a href="http://gmail.com.br/" target="_blank"><img src="logo-gmail.jpg" alt="logo gmail"></a>
+                <p>Gmail</p>
+            </div>
+            <div class="circle-image1">
+                <a href="https://www.google.com/" target="_blank"><img src="Google-Chrome-Logo.png" alt="logo chrome"></a>
+                <p>Chrome</p>
+            </div>
+            <div class="circle-image1">
+                <a href="https://www.alura.com.br" target="_blank"><img src="logo-alura.png" alt="logo alura"></a>
+                <p>Alura</p>
+            </div>
+            <div class="circle-image1">
+                <a href="https://www.youtube.com" target="_blank"><img src="Youtube-Logo.png" alt="logo youtube"></a>
+                <p>Youtube</p>
+            </div>
         </div>
     </div>
 
     <footer class="rodape">
         <p>&copy; Copyright Formulário Google.</p>
+        <div class="item">
+            <input type="file" disabled/>
+        </div>
     </footer>
 
 </body>
